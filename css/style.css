@@ -1,0 +1,57 @@
+* {
+	margin:  0;
+	padding: 0;
+}
+body {
+	font-family: "Arial", sans-serif;
+}
+img {
+	width: 100%;
+	box-sizing: border-box;
+}
+.rat {
+	position: absolute;
+	top: 100px;
+	left: 100px;
+	width: 120px;
+	padding: 5px;
+	transition: 0.1s;
+}
+.rat:focus {
+	z-index: 1000;
+	border: 1px dashed #000;
+	outline: none;
+}
+.zaebal {
+	font-size: 120px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	color: red;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	vertical-align: middle;
+}
+.ratZaebal {
+	width: 100vw;
+	height: 100vh;
+}
+.chees {
+	z-index: 999;
+	position: absolute;
+	width: 60px;
+}
+.counter {
+	font-size: 40px;
+}
+.header {
+	background: #ffba00;
+	border-bottom: 2px solid #000;
+}
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 1000px;
+	margin: 0 auto;
+}
